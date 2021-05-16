@@ -78,7 +78,7 @@
     "build": "yarn run build:types && gatsby build",
     "build:types": "tsc",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md,ts,tsx}\"",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx}\"",
     "start": "yarn run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",

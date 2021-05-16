@@ -1,6 +1,5 @@
-import React from 'react';
-import { Link } from 'gatsby';
-
+import React from "react";
+import { Link } from "gatsby";
 import {
   EuiPage,
   EuiPageBody,
@@ -11,7 +10,7 @@ import {
   EuiPageHeader,
   EuiPageHeaderSection,
   EuiTitle,
-} from '@elastic/eui';
+} from "@elastic/eui";
 
 export default () => (
   <EuiPage restrictWidth>
@@ -31,9 +30,7 @@ export default () => (
               <h2>Content title</h2>
             </EuiTitle>
           </EuiPageContentHeaderSection>
-          <EuiPageContentHeaderSection>
-            Content abilities
-          </EuiPageContentHeaderSection>
+          <EuiPageContentHeaderSection>Content abilities</EuiPageContentHeaderSection>
         </EuiPageContentHeader>
         <EuiPageContentBody>
           <Link to="/">Go to Home</Link>
