@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/my-budget",
+  pathPrefix: "/",
   siteMetadata: {
     title: "My Budget",
     description: "My Budget",
